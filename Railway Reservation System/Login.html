@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login-RRS</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		* {
+			background-color: skyblue;
+		}
+		body {
+			margin: 0;
+		}
+		img {
+			width: 100%;
+			height: 250px;
+			margin: 0;
+		}
+		h1 {
+			margin: 0px;
+		    font-size: 50px;
+		    background-color: white;
+		    text-align: center;
+		}
+		h2 {
+			text-align: center;
+			font-size: 30px;
+		}
+	
+	form { 
+	          text-align: center;
+	} 
+	/*assign full width inputs*/
+	
+	input[type=text], 
+	input[type=password] { 
+		width: 500px; 
+		padding: 12px 20px; 
+		margin: 8px 0; 
+		display: inline-block; 
+		border: 1px solid black; 
+		box-sizing: border-box; 
+	} 
+	/*set a style for the buttons*/ 
+	
+	button { 
+		background-color: #4CAF50; 
+		color: white; 
+		padding: 14px 20px; 
+		margin: 8px 70px; 
+		border: none; 
+		cursor: pointer; 
+		width: 120px; 
+	} 
+	/* set a hover effect for the button*/ 
+	
+	button:hover { 
+		opacity: 0.8; 
+	} 
+	
+	/*set padding to the container*/ 
+	
+	.container { 
+		padding: 16px;
+	} 
+	
+
+</style> 
+</head>
+<body>
+	<header>
+		<img src="Train.jpg" alt="Indian Railway">
+		<h1>Railway Reservation System</h1>
+	</header>
+	<div class="body">
+		<h2>Login Form</h2> 
+	<!--Step 1 : Adding HTML-->
+	<form action="E:\Railway Reservation System\Home.html"> 
+		
+		<div class="container"> 
+			<label><b>Username</b></label> 
+			<input type="text" placeholder="Enter Username" name="uname" required> <br>
+
+			<label><b>Password</b></label> 
+			<input type="password" placeholder="Enter Password" name="psw" required> <br>
+
+			<button type="submit">Login</button> <br>
+			<input type="checkbox" checked="checked" class="remember"> Remember me 
+		</div> 
+	</form> 
+
+</body>
+</html>
